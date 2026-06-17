@@ -40,3 +40,6 @@ Restricted routes within your application that require a user to prove who they 
 
 ## Educational Limitations
 Crucial note indicating that the security architecture of the project was built to teach or demonstrate a concept, not to withstand real-world attacks.
+
+## Logout Explaination
+Since the server has no memory of who is logged in, a logout endpoint cannot invalidate the token on the backend.
